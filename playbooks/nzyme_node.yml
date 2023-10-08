@@ -1,0 +1,6 @@
+---
+- name: Install and Configure nzyme-node
+  hosts: nzyme_nodes
+  become: yes
+  roles:
+    - nzyme_node

@@ -1,0 +1,7 @@
+---
+- name: Install and Configure nzyme-tap
+  hosts: nzyme_taps
+  become: yes
+  roles:
+    - nzyme_tap
+

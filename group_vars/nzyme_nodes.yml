@@ -1,0 +1,6 @@
+# group_vars/nzyme_nodes.yml
+nzyme_node_name: nzyme-node-02
+db_user: nzyme
+db_password: nzyme
+rest_listen_ip: 192.168.1.110
+http_external_ip: 192.168.1.110
