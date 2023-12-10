@@ -2,5 +2,5 @@
 nzyme_node_name: nzyme-node-01
 db_user: nzyme
 db_password: nzyme
-rest_listen_ip: 192.168.1.149
-http_external_ip: 192.168.1.149
+rest_listen_ip: 10.20.200.205
+http_external_ip: 10.20.200.205

@@ -3,7 +3,7 @@
   block:
     - name: Install nzyme-tap package (Ubuntu)
       apt:
-        deb: "https://github.com/nzymedefense/nzyme/releases/download/2.0.0-alpha.5/nzyme-tap_2.0.0-alpha.5_ubuntu2204_amd64.deb"
+        deb: "https://github.com/nzymedefense/nzyme/releases/download/2.0.0-alpha.6/nzyme-tap_2.0.0-alpha.6_ubuntu2204_amd64.deb"
       when: ansible_facts['os_family'] == 'Debian'
 
     - name: Generate wifi configuration
@@ -41,7 +41,7 @@
   block:
     - name: Install nzyme-tap package (Raspberry Pi)
       apt:
-        deb: "https://github.com/nzymedefense/nzyme/releases/download/2.0.0-alpha.5/nzyme-tap_2.0.0-alpha.5_rpios11_arm64.deb"
+        deb: "https://github.com/nzymedefense/nzyme/releases/download/2.0.0-alpha.6/nzyme-tap_2.0.0-alpha.6_rpios11_arm64.deb"
       when: ansible_facts['os_family'] == 'Debian'
     
     - name: Generate wifi configuration

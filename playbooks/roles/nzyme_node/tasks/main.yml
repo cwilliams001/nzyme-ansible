@@ -9,12 +9,12 @@
 
 - name: Download nzyme-node Debian package
   get_url:
-    url: https://github.com/nzymedefense/nzyme/releases/download/2.0.0-alpha.5/nzyme-node_2.0.0-alpha.5.deb
-    dest: "/tmp/nzyme-node_2.0.0-alpha.5.deb"
+    url: https://github.com/nzymedefense/nzyme/releases/download/2.0.0-alpha.6/nzyme-node_2.0.0-alpha.6.deb
+    dest: "/tmp/nzyme-node_2.0.0-alpha.6.deb"
 
 - name: Install nzyme-node Debian package
   apt:
-    deb: "/tmp/nzyme-node_2.0.0-alpha.5.deb"
+    deb: "/tmp/nzyme-node_2.0.0-alpha.6.deb"
   
 - name: Run the setup script
   script: setup_postgres.sh
